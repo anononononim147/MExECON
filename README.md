@@ -30,8 +30,8 @@ Joint Multi-view Body Optimization (JMBO) estimates a single SMPL-X body model f
 - ### Quick Start
 
 ```bash
-# For single-person image-based reconstruction (w/ l visualization steps, 2 min)
-python -m apps.infer -cfg ./configs/econ.yaml -in_dir ./examples -out_dir ./results
+# For single-person image-based reconstruction (~ 2 min)
+python -m apps.infer -cfg ./configs/econ.yaml -in_dir ./example/0021 -out_dir ./results/0021/ -novis -front_view 6 -back_view 2
 
 
 ```
