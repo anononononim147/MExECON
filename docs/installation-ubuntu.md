@@ -3,8 +3,8 @@
 Start by cloning the repo:
 
 ```bash
-git clone git@github.com:YuliangXiu/ECON.git
-cd ECON
+git clone https://github.com/anononononim147/MExECON.git
+cd MExECON
 ```
 
 ## Environment
@@ -21,7 +21,7 @@ cd ECON
 sudo apt-get install libeigen3-dev ffmpeg
 
 # install required packages
-cd ECON
+cd MExECON
 conda env create -f environment.yaml
 conda activate econ
 pip install -r requirements.txt
@@ -51,7 +51,7 @@ Required:
 ## Downloading required models and extra data
 
 ```bash
-cd ECON
+cd MExECON
 bash fetch_data.sh # requires username and password
 ```
 
