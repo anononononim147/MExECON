@@ -1,7 +1,7 @@
 # build Image from Docker Hub
 version: "2.4"
 services:
-  econ:
+  mexecon:
     container_name: mexecon-container
     image: teddy12155555/econ:v1
     runtime: nvidia
