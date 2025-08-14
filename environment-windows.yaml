@@ -1,4 +1,4 @@
-name: econ
+name: mexecon
 channels:
   - nvidia
   - pytorch
