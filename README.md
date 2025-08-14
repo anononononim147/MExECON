@@ -5,7 +5,7 @@
   <h1 align="center">MExECON: Multi-view Extended Explicit Clothed Humans Optimized via Normal integration</h1>
 
   <div align="center">
-    <img src="./assets/Pipeline3.png" alt="Logo" width="100%">
+    <img src="./assets/Method1.gif" alt="Logo" width="100%">
   </div>
 
 <br>
