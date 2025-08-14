@@ -22,8 +22,8 @@ Another [issue#16](https://github.com/YuliangXiu/ECON/issues/16) shows the whole
 Start by cloning the repo:
 
 ```bash
-git clone https://github.com/yuliangxiu/ECON.git
-cd ECON
+git clone https://github.com/anononononim147/MExECON.git
+cd MExECON
 ```
 
 ## Environment
@@ -37,9 +37,9 @@ cd ECON
 
 ```bash
 # install required packages
-cd ECON
+cd MExECON
 conda env create -f environment-windows.yaml
-conda activate econ
+conda activate mexecon
 
 # install pytorch and cupy
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
@@ -73,7 +73,7 @@ Required:
 ## Downloading required models and extra data (make sure to install git and wget for windows for this to work)
 
 ```bash
-cd ECON
+cd MExECON
 bash fetch_data.sh # requires username and password
 ```
 
